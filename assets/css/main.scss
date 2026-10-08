@@ -104,44 +104,32 @@ article {
 .author__bio, .author__urls-wrapper {
   color: #3d352e !important;
 }
-/* Sol profil sütunu ile orta yazının üst üste binmesini engeller */
-/* Sol profil ve icerik alaninin ust uste binmesini onleme */
+/* Sol profil ve sag icerigin net ayrilmasi (Ust uste binmeyi onler) */
+.page__inner-wrap {
+  overflow: hidden !important;
+}
+
 .sidebar {
-  width: 260px !important;
   float: left !important;
-  position: relative !important;
-  z-index: 10;
+  width: 250px !important;
+  margin-right: 35px !important;
 }
 
 .page__content {
-  margin-left: 280px !important;
-  width: calc(100% - 290px) !important;
-  position: relative !important;
+  overflow: hidden !important;
 }
 
-.archive {
-  margin-left: 280px !important;
-}
-
-/* Bülten kutusunun tam genişlikte ve ortalı durmasını sağlar */
-.page__content iframe {
-  max-width: 100% !important;
-}
-/* Sitenin genelini %75 oranina sabitleme ve font boyutlarini kucultme */
+/* Sitenin genelini %75 oraninda sabitleme ve fontlari kucultme */
 html {
-  font-size: 12px !important; /* Standart 16px yerine metinleri kucultur */
+  font-size: 13px !important;
 }
 
-#main {
-  zoom: 0.8; /* Chromium/Edge/Safari icin gorunumu %80 oranina olcekler */
-  max-width: 1200px !important;
+.page {
+  max-width: 1100px !important;
   margin: 0 auto !important;
 }
 
-/* Firefox icin olceklendirme destegi */
-@supports not (zoom: 0.75) {
-  #main {
-    transform: scale(0.75);
-    transform-origin: top center;
-  }
+/* Substack bulten kutusu uyumu */
+.page__content iframe {
+  max-width: 100% !important;
 }
