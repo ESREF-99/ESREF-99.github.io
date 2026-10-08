@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Özgeçmiş"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Eğitim
+* **Lisans:** Maliye / İktisadi ve İdari Bilimler Fakültesi
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Çalışma & Araştırma Alanları
+* **Kamu Maliyesi & Bütçe:** Kamu harcamaları disiplini, bütçe hakkı ve parlamenter denetim mekanizmaları.
+* **Hukuk & Anayasal Düzen:** Hukuk devleti ilkesi, anayasal güvenceler ve ceza/kamu hukuku ekseninde temel haklar.
+* **Vergi Usul Hukuku:** Vergilendirme yetkisinin anayasal sınırları, usul ilkeleri ve mükellef hakları.
+* **Maliye & Hukuk Tarihi:** Osmanlı'dan Cumhuriyet'e mali kurumların gelişimi, bütçe sistematiği ve kurumlar tarihi.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Beceriler & Yetkinlikler
+* **Analiz & Veri:** Mali analiz, bütçe okumaları, Microsoft Excel modellemeleri.
+* **Akademik Araştırma:** Hukuk ve maliye literatür taraması, mevzuat takibi, metin analizi.
+* **Yabancı Dil:** Rusça (Başlangıç), İtalyanca (Başlangıç).
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Yayınlar & Yazılar
+* Analitik incelemeler, rapor yayınları, araştırma notları ve makale taslakları için [Yazılar](/posts/) sayfasına veya [Kronik Notlar](https://esrefcan.substack.com) bültenine göz atabilirsiniz.
