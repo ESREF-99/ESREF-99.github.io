@@ -37,54 +37,70 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
-/* --- SOL VE SAĞ ÖZEL ARKA PLAN DÜZENİ --- */
-body {
-  background-color: #e8e0d5 !important; /* Ferah bej/toprak zemin */
-  background-image: url('/images/hukuk.jpg'), url('/images/maliye.jpg') !important;
-  background-position: left top, right top !important;
-  background-repeat: no-repeat, no-repeat !important;
-  background-attachment: fixed, fixed !important;
-  /* Resimleri yan şeritlere boydan boya şıkça yerleştirir */
-  background-size: 26vw 100vh, 26vw 100vh !important;
+/* --- ÇALIŞMAYAN AY SİMGESİNİ GİZLE --- */
+.theme-toggle, .toggle-theme, a[title*="theme"], a[title*="Theme"] {
+  display: none !important;
 }
 
 /* --- SOL VE SAĞ RESİM DÜZENİ --- */
-body {
-  background-color: #f7f5f0 !important; /* Açık krem zemin */
+html, body {
+  background-color: #e8e2d8 !important; /* Açık krem / bej zemin */
   background-image: url('/images/hukuk.jpg'), url('/images/maliye.jpg') !important;
   background-position: left top, right top !important;
   background-repeat: no-repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
-  background-size: 20vw 100vh, 20vw 100vh !important; /* Yan boşluklara tam oturtur */
+  background-size: 20vw 100vh, 20vw 100vh !important;
 }
 
-/* Küçük ekranda resimleri gizler, sayfa bozulmaz */
+/* Küçük ekranda fotoğrafları gizle */
 @media (max-width: 1200px) {
-  body {
+  html, body {
     background-image: none !important;
-    background-color: #f7f5f0 !important;
   }
 }
 
-/* Orta sayfayı beyaz/krem kart gibi kutu içine alır */
-#main {
-  background: #ffffff !important;
-  max-width: 950px;
-  margin: 30px auto !important;
-  padding: 30px 40px !important;
-  border-radius: 12px;
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08) !important;
-}
-
-/* Sol profil alanı ile sağ yazıyı açık renk yapar */
-.sidebar, .page__inner-wrap {
-  background: transparent !important;
-}
-
-.page__title, h1, h2, h3 {
+/* --- ORTA KART: HER ZAMAN BEYAZ VE FERAH --- */
+#main, 
+.page__inner-wrap, 
+.page, 
+.archive,
+article {
+  background-color: #ffffff !important;
   color: #1a1613 !important;
 }
 
-p, li {
-  color: #2e2823 !important;
+#main {
+  max-width: 950px;
+  margin: 35px auto !important;
+  padding: 40px !important;
+  border-radius: 12px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18) !important;
+}
+
+/* İçindeki tüm başlık ve metin renklerini netleştir */
+#main * {
+  color: #1a1613 !important;
+}
+
+#main p, #main li {
+  color: #2b2520 !important;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+#main h1, #main h2, #main h3, #main .page__title {
+  color: #0f0d0c !important;
+  font-weight: 700;
+}
+
+/* Sol profil panelini de açık ve okunaklı yap */
+.sidebar {
+  background: transparent !important;
+}
+.author__name {
+  color: #0f0d0c !important;
+  font-weight: bold;
+}
+.author__bio, .author__urls-wrapper {
+  color: #3d352e !important;
 }
