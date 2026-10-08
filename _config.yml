@@ -31,6 +31,7 @@ author:
   employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
+  substack         : "https://esrefcan.substack.com"
 
   # Academic websites
   academia         : # URL
