@@ -104,3 +104,16 @@ article {
 .author__bio, .author__urls-wrapper {
   color: #3d352e !important;
 }
+/* Sol profil sütunu ile orta yazının üst üste binmesini engeller */
+.page__inner-wrap {
+  clear: both;
+}
+
+.sidebar {
+  margin-right: 30px !important;
+}
+
+/* Bülten kutusunun tam genişlikte ve ortalı durmasını sağlar */
+.page__content iframe {
+  max-width: 100% !important;
+}
