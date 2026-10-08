@@ -105,12 +105,22 @@ article {
   color: #3d352e !important;
 }
 /* Sol profil sütunu ile orta yazının üst üste binmesini engeller */
-.page__inner-wrap {
-  clear: both;
+/* Sol profil ve icerik alaninin ust uste binmesini onleme */
+.sidebar {
+  width: 260px !important;
+  float: left !important;
+  position: relative !important;
+  z-index: 10;
 }
 
-.sidebar {
-  margin-right: 30px !important;
+.page__content {
+  margin-left: 280px !important;
+  width: calc(100% - 290px) !important;
+  position: relative !important;
+}
+
+.archive {
+  margin-left: 280px !important;
 }
 
 /* Bülten kutusunun tam genişlikte ve ortalı durmasını sağlar */
