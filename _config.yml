@@ -32,9 +32,7 @@ author:
   uri              : # URL
   email            : "none@example.org" 
   substack         : "https://esrefcan.substack.com"
-  - label: "Bülten (Substack)"
-      icon: "fas fa-fw fa-envelope-open-text"
-      url: "https://esrefcan.substack.com"
+  uri              : "https://esrefcan.substack.com"
 
   # Academic websites
   academia         : # URL
