@@ -23,7 +23,7 @@ repository               : "ESREF-99/ESREF-99.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/assets/images/avatar.jpg"
+  avatar           : "images/avatar.jpg"
   name             : "EŞREF CAN"
   pronouns         : # example: "she/her"  
   bio              : "MALİYE VE HUKUK ALANI ÖZEL ÇALIŞMALAR"
