@@ -37,3 +37,35 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+/* Arka planı iki farklı resimle sol ve sağa bölme */
+body {
+  background-image: url('/images/hukuk.jpg'), url('/images/maliye.jpg');
+  background-position: left top, right top; /* Hukuk solda, Maliye sağda */
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20% auto, 20% auto; /* Görselleri sadece yan şeritlere sığdırır */
+  background-attachment: fixed, fixed;
+  background-color: #f4ede4; /* 'dirt' temasının bej rengi (orta kısım) */
+}
+
+/* Küçük ekranlarda/mobilde görsellerin üst üste binmesini engellemek için gizler */
+@media (max-width: 1024px) {
+  body {
+    background-image: none;
+    background-color: #f4ede4;
+  }
+}
+
+/* Orta kısımdaki yazı alanını netleştirmek ve zeminden ayırmak için */
+.page__inner-wrap {
+  background: rgba(253, 251, 247, 0.96); /* Hafif opak açık bej zemin */
+  padding: 2.5em;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05); /* Çok hafif bir gölge */
+}
+
+/* Sol profil panelinin de okunabilir kalması için */
+.sidebar {
+  background: rgba(253, 251, 247, 0.96);
+  padding: 1.5em;
+  border-radius: 6px;
+}
