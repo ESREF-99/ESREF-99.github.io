@@ -127,3 +127,21 @@ article {
 .page__content iframe {
   max-width: 100% !important;
 }
+/* Sitenin genelini %75 oranina sabitleme ve font boyutlarini kucultme */
+html {
+  font-size: 12px !important; /* Standart 16px yerine metinleri kucultur */
+}
+
+#main {
+  zoom: 0.8; /* Chromium/Edge/Safari icin gorunumu %80 oranina olcekler */
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+/* Firefox icin olceklendirme destegi */
+@supports not (zoom: 0.75) {
+  #main {
+    transform: scale(0.75);
+    transform-origin: top center;
+  }
+}
