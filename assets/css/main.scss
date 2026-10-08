@@ -37,35 +37,52 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
-/* Arka planı iki farklı resimle sol ve sağa bölme */
+/* --- SOL VE SAĞ ÖZEL ARKA PLAN DÜZENİ --- */
 body {
-  background-image: url('/images/hukuk.jpg'), url('/images/maliye.jpg');
-  background-position: left top, right top; /* Hukuk solda, Maliye sağda */
-  background-repeat: no-repeat, no-repeat;
-  background-size: 20% auto, 20% auto; /* Görselleri sadece yan şeritlere sığdırır */
-  background-attachment: fixed, fixed;
-  background-color: #f4ede4; /* 'dirt' temasının bej rengi (orta kısım) */
+  background-color: #e8e0d5 !important; /* Ferah bej/toprak zemin */
+  background-image: url('/images/hukuk.jpg'), url('/images/maliye.jpg') !important;
+  background-position: left top, right top !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+  /* Resimleri yan şeritlere boydan boya şıkça yerleştirir */
+  background-size: 26vw 100vh, 26vw 100vh !important;
 }
 
-/* Küçük ekranlarda/mobilde görsellerin üst üste binmesini engellemek için gizler */
-@media (max-width: 1024px) {
+/* Küçük ekran ve mobilde taşmayı önler */
+@media (max-width: 1100px) {
   body {
-    background-image: none;
-    background-color: #f4ede4;
+    background-image: none !important;
+    background-color: #f4ede4 !important;
   }
 }
 
-/* Orta kısımdaki yazı alanını netleştirmek ve zeminden ayırmak için */
-.page__inner-wrap {
-  background: rgba(253, 251, 247, 0.96); /* Hafif opak açık bej zemin */
-  padding: 2.5em;
-  border-radius: 6px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.05); /* Çok hafif bir gölge */
+/* Orta yazı bloğunu açık renk, ferah ve okunur yapar */
+#main, .page__inner-wrap {
+  background: rgba(255, 255, 255, 0.95) !important;
+  color: #2b2520 !important;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* Sol profil panelinin de okunabilir kalması için */
+.page__inner-wrap {
+  padding: 3em !important;
+}
+
+/* Sol profil kartını netleştirir */
 .sidebar {
-  background: rgba(253, 251, 247, 0.96);
-  padding: 1.5em;
-  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-radius: 12px;
+  padding: 1.5em !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Metin renklerini ve başlıkları net siyah/koyu kahve yapar */
+.page__content p, .page__content li {
+  color: #332d27 !important;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.page__title, h1, h2, h3 {
+  color: #1a1613 !important;
 }
