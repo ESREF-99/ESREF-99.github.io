@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Sosyal Bilimler Neden Gelişmek Zorunda"
 Sosyal Bilimlerin konusu insan, insan eylemleri, kültürler ve insanın yarattığı dünyadır. Bu sebeplerle insan davranışlarını anlamanın bilimi sosyal bilimlerdir.
 
