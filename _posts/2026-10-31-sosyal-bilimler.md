@@ -1,3 +1,5 @@
+---
+title: "Sosyal Bilimler Neden Gelişmek Zorunda"
 Sosyal Bilimlerin konusu insan, insan eylemleri, kültürler ve insanın yarattığı dünyadır. Bu sebeplerle insan davranışlarını anlamanın bilimi sosyal bilimlerdir.
 
 Geçmişten günümüze gelişerek ve değişerek gelen sosyal bilimler günümüzde kanımca önemini ve gelişim ivmesini kaybetmeye başlamıştır. Bu durum toplum açısından önem arz eden bir konudur çünkü sosyal bilimlerin gelişmesi insanlığın gelişmesi ile doğru orantılıdır. Buna basit ve yüzeysel bir örnek vermek istersek: Tarih ve iktisat bilimlerinin ortak alt dalı olan iktisat tarihi sayesinde daha önceden denenip başarısız olunan bir ekonomi modelini (merkantilizm, aşırı planlı komuta ekonomileri ya da vahşi hiper-enflasyonist politikalar) tekrar denemeyişimizin temel sebebi sonuçlarını ve bedellerini biliyor olmamızdır. Tarih ve iktisat gibi sosyal bilimler gelişmeseydi geçmişin hataları ve tecrübeleri hatırlanamayarak toplumların her daim yerinde saymasına yol açardı.
